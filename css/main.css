@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubiko", serif;
+    line-height: 60px;
+    text-shadow:
+    2px 2px 0px black,
+    -2px -2px 0px black,
+    2px -2px 0px black,
+    -2px 2px 0px black;
+}
+
+.circle {
+  border: 10px dashed #000;
+  border-radius: 1000px;
+  z-index: 10;
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+}
+
+.ceins {
+  padding-top: 20%;
+  font-size: 1000px;
+  overflow: visible;
+  color: #2E37C9;
+}
+.kopf {
+  z-index: 12;
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  font-size: 100px;
+  color: #2E37C9;
+  overflow: hidden;
+  transform: skewy(0);
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  font-family: "Rubiko";
+  padding-right: 14px;
+  /* animation: letterhead 5s infinite alternate ease-in-out; */
+}
+
+.kreiss {
+  width: 90px;
+  height: 90px;
+  top: 40.33%;
+  left: 24.24%;
+  border-radius: 50%;
+  background-color: #FF5733;
+  position: absolute;
+  z-index: 100;
+  border: 1.5px solid #000;
+  animation: bouncing 5s infinite alternate;
+}
+
+.kreis7 {
+  width: 200px;
+  height: 200px;
+  top: 50.00%;
+  left: 40.00%;
+  border-radius: 50%;
+  background-color: #FF5733;
+  position: absolute;
+  z-index: 90;
+  border: 1.5px solid #000;
+  animation: bouncing 3s infinite alternate;
+}
+
+@keyframes zoom {
+
+   0% {
+   width: 0px;
+   height: 0px;
+ }
+
+ 100% {
+ width: 500px;
+ height: 500px;
+}
+
+}
+
+.kreisss {
+  width: 100px;
+  height: 100px;
+  top: 33.33%;
+  left: 35.24%;
+  border-radius: 50%;
+  background-color: #FF5733;
+  position: absolute;
+  z-index: 100;
+  border: 1.5px solid #000;
+  animation: bouncing 5s infinite alternate;
+  animation-delay: 1.2s;
+  visibility: hidden;
+}
+
+.kreissss {
+  width: 100px;
+  height: 100px;
+  top: 10.33%;
+  left: 50%;
+  border-radius: 50%;
+  background-color: #FF5733;
+  position: absolute;
+  z-index: 100;
+  border: 1.5px solid #000;
+  animation: bouncing 3s infinite alternate;
+  animation-delay: 2s;
+  visibility: hidden;
+}
+
+.kreis3 {
+  width: 100px;
+  height: 100px;
+  top: 33.33%;
+  left: 66.3%;
+  border-radius: 50%;
+  background-color: #FF5733;
+  position: absolute;
+  z-index: 100;
+  border: 1.5px solid #000;
+  animation: bouncing 3s infinite alternate;
+  animation-delay: 2s;
+  visibility: hidden;
+}
+
+.kreis4 {
+  width: 80px;
+  height: 80px;
+  top: 33.33%;
+  left: 65.3%;
+  border-radius: 50%;
+  background-color: #FF5733;
+  position: absolute;
+  z-index: 100;
+  border: 1.5px solid #000;
+  animation: bouncing 3s infinite alternate;
+  animation-delay: 0.2s;
+  visibility: hidden;
+}
+
+.kreis5 {
+  width: 50px;
+  height: 50px;
+  top: 50.33%;
+  left: 50%;
+  border-radius: 50%;
+  background-color: #FF5733;
+  position: absolute;
+  z-index: 100;
+  border: 1.5px solid #000;
+  animation: bouncing 3s infinite alternate;
+  animation-delay: 2.5s;
+  visibility: hidden;
+}
+
+.kreis6 {
+  width: 50px;
+  height: 50px;
+  top: 50.33%;
+  left: 70%;
+  border-radius: 50%;
+  background-color: #FF5733;
+  position: absolute;
+  z-index: 100;
+  border: 1.5px solid #000;
+  animation: bouncing 3s infinite alternate;
+  animation-delay: 1.5s;
+  visibility: hidden;
+}
+
+
+@keyframes bouncing {
+  0% {
+    top: 0%;
+    visibility: visible;
+  }
+
+  0% {
+    top: 100%;
+    visibility: visible;
+  }
+
+}
+
+.linksoben {
+  z-index: 20;
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  font-size: 100px;
+  color: #2E37C9;
+  overflow: hidden;
+
+  font-weight: bold;
+  font-family: "Rubiko";
+  padding-top: 10px;
+}
+
+@keyframes letterhead {
+  0% {
+line-height: 0px;
+  }
+
+  100px% {
+line-height: 100px;
+  }
+
+}
+
+
+.bottom {
+  z-index: 12;
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  font-size: 100px;
+  color: #2E37C9;
+  overflow: hidden;
+  transform: skewy(0);
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  font-family: "Rubiko";
+  padding-bottom: 5px;
+  padding-top: 0.5px;
+  transform: rotate(180deg);
+  line-height: 100px;
+
+}
+
+
+.circle {
+  border: 1px dashed #000;
+  border-radius: 1000px;
+  z-index: 10;
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+}
+
+.frame {
+    width: 1080px;
+    height:1920px;
+    border: 1px solid #000;
+    margin: auto;
+    overflow: hidden;
+    background-color: brown;
+    color: #FF5733;
+}
+
+.main-grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+
+    /* Das Main Grid hat 2 Spalten und 5 Zeilen */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    /* Hier wird die Animation zum Main Grid hinzugefügt */
+    animation: main-grid-animation 10s infinite ease-in-out;
+}
+
+.textfeld {
+    width: 100%;
+    height: 100%;
+
+    /* Nur zur Orientierung */
+    border: 1px dashed #000;
+
+    /* Bestimmt die Anordnung der Elemente in den Textfeldern */
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    overflow: hidden;
+    padding: 1%;
+    font-size: 100vh;
+    background-color: brown;
+
+    /* Wichtig, damit proportionale Textgrößen wie cqh bei den darinliegenden Elementen funktioniert*/
+    container-type: size;
+}
+.scaler {
+  font-size: 10cph;;
+}
+
+.textfeld1 {
+    width: 100%;
+    height: 100%;
+
+    /* Nur zur Orientierung */
+    border: 1px dashed #000;
+
+    /* Bestimmt die Anordnung der Elemente in den Textfeldern */
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    overflow: hidden;
+    white-space: normal;
+    padding: 1%;
+    background-color: #FF5733;
+    color: brown;
+
+    /* Wichtig, damit proportionale Textgrößen wie cqh bei den darinliegenden Elementen funktioniert*/
+    container-type: size;
+}
+
+span {
+    /* Hier wird bestimmt, in welchem Verhältnis die Schrift zur Größe des Textfeld steht */
+    font-size: 70cqh;
+}
+
+
+/* Beispiel für eine Animation des Grid */
+@keyframes main-grid-animation {
+    0% ,100%{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+        transform: scaleY(100%);
+
+    }
+    10% {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+        transform: scaleY(100%);
+    }
+    40% {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+        transform: scaleY(100%);
+    }
+    80% {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+        transform: scaleY(100%);
+    }
+
+}
+
+
+#container {
+position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 10vw;
+  display: flex;
+  color: #2E37C9;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 9999; /* ganz oben */
+  pointer-events: none;
+
+    }
+    .letter {
+      position: absolute;
+      opacity: 0;
+      transition: opacity 0.1s ease-in, filter 0.1s ease-in;
+    }
+    .letter.visible {
+      opacity: 1;
+    }
+    .letter.heat {
+      filter: sepia(1) brightness(1.5) saturate(2);
+    }

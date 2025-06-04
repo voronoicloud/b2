@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Rubiko";
+    src: url(../fonts/Rubik-Iso-Regular.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: "BA29";
+  src:url(../fonts/BA29-Regular.woff) format("woff"),
+  src:url(../fonts/BA29-Regular.woff2) format("woff2"),
+}
